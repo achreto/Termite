@@ -39,4 +39,4 @@
 	url = https://github.com/termite2/specs.git
 [submodule "lib/gtksourceview"]
 	path = lib/gtksourceview
-	url = git@github.com:achreto/termite2-gtksourceview.git
+	url = https://github.com/achreto/termite2-gtksourceview.git
