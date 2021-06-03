@@ -28,7 +28,7 @@ cabal v1-install happy alex
 # let's install some packages with specific versions now, so we don't end up in version
 # conflicts later...
 echo -e "\n\e[1;34;1mTERMITE: installing some cabal packages to fix the version..\e[1;30;0m"
-cabal v1-install containers-0.6.0.1
+cabal v1-install containers-0.6.4.1
 cabal v1-install binary-0.8.8.0
 cabal v1-install text-1.2.4.1
 cabal v1-install Cabal-3.2.1.0

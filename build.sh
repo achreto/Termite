@@ -25,7 +25,7 @@ CABAL_OPTIONS="--extra-include-dirs=${LIB_CUDD}/include --extra-lib-dirs=${LIB_C
 for lib in util haskell_cudd bdd bv synthesis hast tsl gtksourceview code-widget graph-draw debug;
 do
     echo -e "\n\e[1;34;1mTERMITE: building ${lib}...\e[1;30;0m"
-    cabal v1-install  --force-reinstalls  ${ROOT}/lib/$lib ${CABAL_OPTIONS}
+    cabal v1-install   ${ROOT}/lib/$lib ${CABAL_OPTIONS}
     echo -e "\e[0m"
 done
 
