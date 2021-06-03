@@ -28,8 +28,8 @@
 [submodule "tools/termite-app"]
 	path = tools/termite-app
 	url = https://github.com/achreto/termite2-termite-app.git
-[submodule "tools/bdd"]
-	path = tools/bdd
+[submodule "lib/bdd"]
+	path = lib/bdd
 	url = https://github.com/achreto/termite2-bdd.git
 [submodule "lib/cudd"]
 	path = lib/cudd
